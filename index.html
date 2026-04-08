@@ -19,6 +19,11 @@
 
     <input type="button" name="button" id="loginBTN" value="Login" class="btn btn-info rounded-5" onclick="authenticate()">
 
+    <label for="pwd">Password</label>
+                <br>
+                <input type="password" id="pwd" class="form-control rounded-5 w-50" placeholder="Enter here..." required>
+                <br>
+
     <script>
 let attempt_counter = 0
 
@@ -39,6 +44,7 @@ let username = document.getElementById("uname").value;
             break; // stop loop
         }
 
+        
 
         else {
             attempt_counter++;
@@ -54,10 +60,7 @@ let username = document.getElementById("uname").value;
         }
 
 
-        <input type="reset" name="button" id="cancel" value="Cancel" class="btn btn-info rounded-5" >
-
-
-
+       
 
     </script>
 
